@@ -608,6 +608,10 @@ pub mod path;
 pub mod process;
 #[unstable(feature = "random", issue = "130703")]
 pub mod random;
+#[unstable(feature = "random", issue = "130703")]
+pub mod random_arithmetic;
+#[unstable(feature = "random", issue = "130703")]
+pub mod random_functorial;
 pub mod sync;
 pub mod time;
 
